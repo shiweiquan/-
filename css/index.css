@@ -1,0 +1,103 @@
+.product_info {
+  height:320px;
+  background-color: #fff;
+}
+.hd{
+  overflow: hidden;
+  height:99px;
+  border-bottom: 1px solid #ddd;
+}
+.hd li {
+  float: left;
+  margin-top:10px;
+  margin-left:10px;
+  height:50px;
+  width:204px;
+  /* border:1px solid #ddd; */
+  box-shadow: 1px 2px 4px #ccc;
+  padding:10px 13px;
+  background: url(../images/bg2.jpg) repeat-x;
+  border-radius: 5px;
+}
+.hd li p{
+  color:#9d9d9d;
+  font-size: 12px;
+}
+.hd li p.info{
+  padding-left:36px;
+  margin-top:-9px;
+}
+.bd {
+  /* border:1px solid #ccc; */
+  border-top:0;
+  height:209px;
+  background: url(../images/bg3.jpg) repeat-x;
+}
+/* .bd{
+  background: url(../images/bg_line.jpg) no-repeat right top;
+} */
+.bd p{
+  font-size: 12px;
+  line-height: 20px;
+}
+.bd p.info{
+  float: left;
+  width:175px;
+}
+.w325{
+  float: left;
+  width:305px;
+  height:190px;
+  /* border-right:1px solid #ccc; */
+  padding:10px; 
+  background: url(../images/bg_line.jpg) no-repeat right top;
+}
+.w410{
+  padding:10px;
+  float: left;
+  width:390px;
+  background: url(../images/bg_line.jpg) no-repeat right top;
+  /* background-color: purple; */
+}
+
+.picBox{
+  height:50px;
+  margin-bottom: 15px;
+}
+.picBox img{
+  
+  vertical-align: middle;
+}
+.picBox .pic_one{
+  float: left;
+}
+.picBox .pic_two{
+  margin-top:20px;
+  float: right;
+}
+.photo{
+  float: left;
+  padding:2px;
+  border:1px solid #ccc;
+  margin-right:  10px;
+}
+
+
+.w410 .ct{
+  margin-right:4px;
+  text-align: center;
+  border:none;
+  
+}
+.w410 .ct .pic1{
+  
+}
+.w410 .ct img{
+  border:1px solid #ccc;
+}
+.w245{
+  float: left;
+  padding-top:10px;
+  padding-left:10px;
+ 
+}

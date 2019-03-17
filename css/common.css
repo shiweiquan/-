@@ -1,0 +1,116 @@
+body{
+  background: url(../images/bg.jpg) no-repeat top ;
+}
+.logo{
+  height: 120px;
+  overflow: hidden;
+}
+.logo li{
+  height:100px; 
+}
+.logo li a{
+  margin-top: 20px;
+  display: block;
+  line-height: 100px;
+}
+
+.nav_line_left{
+  float: left;
+  width:17px;
+  height:59px;
+  background: url(../images/nav_left.jpg) no-repeat;
+}
+.nav_line ul{
+  float: left;
+  width:946px;
+  height:59px;
+  background: url(../images/nav_center.jpg) repeat-x right center;
+}
+.nav_line_right{
+   float: left;
+  width:17px;
+  height:59px;
+  background: url(../images/nav_right.jpg) no-repeat;
+}
+.nav_line li{
+  background: url(../images/nav_line.jpg) no-repeat right center;
+  float: left;
+  width:105px; 
+   height:40px;
+  line-height: 40px;
+  text-align: center;
+}
+.nav_line li a{
+  text-decoration: none;
+  font-size: 14px;
+  color:#fff;
+  font-weight: 700;
+}
+.nav_line li a:hover{
+  text-decoration: underline;
+}
+.nav_line .last{
+  background: none;
+}
+.banner{
+  width:980px;
+  /* height:385px; */
+}
+
+.botNav {
+  margin-top:30px;
+  height:30px;
+  background-color: #aaa;
+  text-align: center;
+}
+.botNav ul{
+  display: inline-block;
+  
+}
+.botNav li{
+  float: left;
+  line-height: 30px;
+  color:#fff;
+  font-weight: 200;
+  
+}
+.botNav li a{
+  color:#fff;
+  margin: 0 10px;
+  font-size: 12px;
+  text-decoration: none;
+}
+.botNav li a:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  background:url(../images/bg5.jpg) repeat-x;
+}
+
+.wrapFoot {
+ overflow: hidden;
+ padding-bottom: 20px;
+  
+}
+.wrapFoot div{
+   margin-top: 30px;
+}
+.wrapFoot .left{
+  float: left;
+}
+.wrapFoot .right{
+  float: right;
+}
+.wrapFoot p{
+  font-size: 12px;
+  height:20px;
+  color:#606060;
+}
+
+
+
+
+
+
+
